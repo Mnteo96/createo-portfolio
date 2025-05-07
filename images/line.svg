@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 17.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        stroke-width: 0px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="662.88" y1="405.87" x2="663.44" y2="405.87" gradientTransform="translate(-1272723.44 7136.2) scale(1920 -17.56)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec2c91"/>
+      <stop offset=".28" stop-color="#c154ab"/>
+      <stop offset=".91" stop-color="#56b8eb"/>
+      <stop offset="1" stop-color="#46c7f4"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_310" data-name="Rectangle 310" class="cls-1" width="1920" height="17.56"/>
+</svg>
