@@ -424,7 +424,7 @@ footer{
     }
 
     #right{
-        width: 60%;
+        width: 80%;
     }
     
     #left{
@@ -522,11 +522,6 @@ footer{
 @media (max-width: 550px){
     .container{
         width: 85%;
-    }
-
-    /*Hero section*/
-    #right{
-        width: 80%;
     }
     
     /*navigation*/
