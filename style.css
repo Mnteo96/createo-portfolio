@@ -523,6 +523,12 @@ footer{
     .container{
         width: 85%;
     }
+
+    /*Hero section*/
+    #right{
+        width: 80%;
+    }
+    
     /*navigation*/
     nav{
         position: relative;
