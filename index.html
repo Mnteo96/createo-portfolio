@@ -18,30 +18,41 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
   </head>
   <body>
     <!--Flags-->
     <div class="flags">
-      <img src="images/hun-flag.png" alt="Magyar zászló" />
-      <img src="images/en-flag.png" alt="Angol zászló" />
+      <img
+        src="images/hun-flag.png"
+        alt=""
+        data-id="huflag"
+        onclick="setLanguage('hu')"
+      />
+      <img
+        src="images/en-flag.png"
+        alt=""
+        data-id="enflag"
+        onclick="setLanguage('en')"
+      />
     </div>
     <!--Navigation-->
     <nav class="container">
       <div class="hamburger">
         <img
           src="images/Createo-logo.svg"
-          alt="Createo logó"
+          alt="Createo logo"
           class="createo-logo-mini"
         />
         <img
           src="images/hamburger.png"
-          alt="Hamburger menü ikon"
+          alt="Hamburger menu icon"
           class="hamburger-icon"
         />
       </div>
       <ul class="nav-links">
-        <li><a href="index.html">Főoldal</a></li>
-        <li><a href="#">Munkáim</a></li>
+        <li><a href="index.html" data-id="home">Főoldal</a></li>
+        <li><a href="#" data-id="work">Munkáim</a></li>
         <li class="main-logo">
           <img
             src="images/Createo-logo.svg"
@@ -49,18 +60,26 @@
             class="createo-logo"
           />
         </li>
-        <li><a href="#">Rólam</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="#" data-id="about">Rólam</a></li>
+        <li><a href="#" data-id="blog">Blog</a></li>
         <ul class="mobile-flag">
           <li>
             <img
               src="images/hun-flag.png"
-              alt="Magyar zászló"
+              alt=""
               class="mb-flag"
+              data-id="huflag"
+              onclick="setLanguage('hu')"
             />
           </li>
           <li>
-            <img src="images/en-flag.png" alt="Angol zászló" class="mb-flag" />
+            <img
+              src="images/en-flag.png"
+              alt=""
+              class="mb-flag"
+              data-id="enflag"
+              onclick="setLanguage('en')"
+            />
           </li>
         </ul>
       </ul>
@@ -69,21 +88,32 @@
     <!--Hero section-->
     <header class="container">
       <div id="left">
-        <h1>Hello, <span class="name">Teodóra</span> vagyok.</h1>
+        <h1 data-id="welcome">
+          Hello, <span class="name">Teodóra</span> vagyok.
+        </h1>
         <img
           src="images/divider.png"
           alt="Színátmenetes elválasztó vonal"
           class="divider"
+          data-id="divider"
         />
-        <p>Kezdő frontend fejlesztő, grafikus és UX designer.</p>
-        <p>Szabadidőmben amatőr fotós, könyvmoly és macskásnéni.</p>
+        <p data-id="shortAbout1">
+          Kezdő frontend fejlesztő, grafikus és UX designer.
+        </p>
+        <p data-id="shortAbout2">
+          Szabadidőmben amatőr fotós, könyvmoly és macskásnéni.
+        </p>
         <div class="tablet-flags">
-          <img src="images/hun-flag.png" alt="Magyar zászló" />
-          <img src="images/en-flag.png" alt="Angol zászló" />
+          <img src="images/hun-flag.png" alt="Magyar zászló" data-id="huflag" />
+          <img src="images/en-flag.png" alt="Angol zászló" data-id="enflag" />
         </div>
       </div>
       <div id="right">
-        <img src="images/me-neon.svg" alt="Egy vektor kép rólam" />
+        <img
+          src="images/me-neon.svg"
+          alt="Egy vektor kép rólam"
+          data-id="vector"
+        />
       </div>
     </header>
 
@@ -92,18 +122,19 @@
       src="images/divider.png"
       alt="Színátmenetes elválasztó vonal"
       class="big-divider"
+      data-id="divider"
     />
 
     <!--Main secton-->
     <main>
       <!--First section-->
       <section class="container first-section">
-        <h2>Munkáim</h2>
+        <h2 data-id="myprojects">Munkáim</h2>
         <div class="myworks">
           <div class="myworkscard fancy-border">
             <a href="#">
               <img src="images/paintandbrush.png" alt="Festékpaletta ikon" />
-              <p>Grafika</p>
+              <p data-id="graphic">Grafika</p>
             </a>
           </div>
           <div class="myworkscard fancy-border">
@@ -115,7 +146,7 @@
           <div class="myworkscard fancy-border">
             <a href="#">
               <img src="images/search.png" alt="Nagyító ikon" />
-              <p>Egyéb</p>
+              <p data-id="other">Egyéb</p>
             </a>
           </div>
         </div>
@@ -127,19 +158,19 @@
             <img src="images/me-wolf.svg" alt="" />
           </div>
           <div class="aboutme-right aboutmecard">
-            <h2>Néhány szó rólam..</h2>
-            <p>
+            <h2 data-id="aboutmeTitle">Néhány szó rólam..</h2>
+            <p data-id="aboutmetext1">
               <b>Teo</b> vagyok, 29 éves és jelenleg azon dolgozom, hogy
               megtaláljam azt a munkát, amelyben
               <strong> hosszú távon fejlődhetek és kiteljesedhetek</strong>.
             </p>
-            <p>
-              Bár évekig fizikai munkát végeztem, idővel egyértelművé vált
+            <p data-id="aboutmetext2">
+              Bár évek óta fizikai munkát végzek, idővel egyértelművé vált
               számomra, hogy a <b>kreatív, technológiai területek</b> állnak
               igazán közel hozzám. Ezért kezdtem el komolyabban foglalkozni
               grafikával és frontend fejlesztéssel.
             </p>
-            <p>
+            <p data-id="aboutmetext3">
               Szabadidőm nagy részét tanulásra és gyakorlásra fordítom – online
               kurzusokon keresztül és önálló projekteken dolgozva bővítem a
               tudásom. A maradék időben pedig szívesen olvasok, lehetőleg egy jó
@@ -152,31 +183,31 @@
       <section class="container studies">
         <div class="studiescard studiescard-left">
           <div class="bookandtext">
-            <h2>Tanulmányok</h2>
+            <h2 data-id="study">Tanulmányok</h2>
             <img src="images/book.svg" alt="" class="sm-hidden-book" />
           </div>
-          <p class="space">
+          <p class="space" data-id="vasvari">
             <span class="blue-text"
               >- Szegedi SZC Vasvári Pál Gazdasági és Informatikai
               Technikum</span
             ><br />
             szoftverfejlesztő és tesztelő képzés (első év befejezve)
           </p>
-          <p class="space">
+          <p class="space" data-id="webler">
             <span class="pink-text">- Webler Oktató Studio </span><br />
             grafikus OKJ tanfolyam
           </p>
-          <p class="space">
+          <p class="space" data-id="mixer">
             <span class="blue-text">- Best Mixer</span><br />
             barista, mester barista
           </p>
-          <p class="space">
+          <p class="space" data-id="bethlen">
             <span class="pink-text">- Bethlen Gábor Református Gimnázium</span
             ><br />
             érettségi
           </p>
 
-          <p>
+          <p data-id="extra">
             A fentieken túl, több kisebb-nagyobb tanfolyamot is elvégeztem, hogy
             növeljem a tudásomat. Ebből néhány:
           </p>
@@ -184,7 +215,9 @@
             <li>- Coursera Google IT Support</li>
             <li>- Coursera Meta Front-End Developer</li>
             <li>- Coursera Google UX design</li>
-            <li>- The Bright Academy - Grafikus és Webdesigner tanfolyam</li>
+            <li data-id="bright">
+              - The Bright Academy - Grafikus és Webdesigner tanfolyam
+            </li>
           </ul>
         </div>
         <div class="studiescard studiescard-right">
@@ -197,34 +230,35 @@
         src="images/divider.png"
         alt="Színátmenetes elválasztó vonal"
         class="big-divider"
+        data-id="divider"
       />
       <!--Fourth section-->
       <section class="container programscontainer">
-        <h2>Program és egyéb ismeretek</h2>
+        <h2 data-id="programknowledge">Program és egyéb ismeretek</h2>
         <div class="programs">
-          <img src="images/html.svg" alt="Html ikon" />
-          <img src="images/css.svg" alt="Css ikon" />
-          <img src="images/javascript.svg" alt="Javascript ikon" />
-          <img src="images/photoshop.svg" alt="Photoshop ikon" />
-          <img src="images/illustrator.svg" alt="Adobe illustrator ikon" />
-          <img src="images/indesign.svg" alt="Indesign ikon" />
-          <img src="images/adobe-xd.svg" alt="Adobe XD ikon" />
-          <img src="images/excel.svg" alt="Excel ikon" />
-          <img src="images/word.svg" alt="Word ikon" />
+          <img src="images/html.svg" alt="Html icon" />
+          <img src="images/css.svg" alt="Css icon" />
+          <img src="images/javascript.svg" alt="Javascript icon" />
+          <img src="images/photoshop.svg" alt="Photoshop icon" />
+          <img src="images/illustrator.svg" alt="Adobe illustrator icon" />
+          <img src="images/indesign.svg" alt="Indesign icon" />
+          <img src="images/adobe-xd.svg" alt="Adobe XD icon" />
+          <img src="images/excel.svg" alt="Excel icon" />
+          <img src="images/word.svg" alt="Word icon" />
         </div>
         <ul>
-          <li>- B kategóriás jogosítvány</li>
-          <li>- B2 középszintű angol nyelvvizsga</li>
-          <li>- UX design alapismeretek</li>
-          <li>- adatelemzés alapismeretek</li>
-          <li>- grafikai alapismeretek</li>
+          <li data-id="licence">- B kategóriás jogosítvány</li>
+          <li data-id="language">- B2 középszintű angol nyelvvizsga</li>
+          <li data-id="ux">- UX design alapismeretek</li>
+          <li data-id="dataanalysis">- adatelemzés alapismeretek</li>
+          <li data-id="graphicdesign">- grafikai alapismeretek</li>
         </ul>
       </section>
 
       <!--Fifth section-->
       <div class="white-bg-sm">
         <section class="container somework white-bg-sm">
-          <h2>Néhány munkám</h2>
+          <h2 data-id="someworksofmine">Néhány munkám</h2>
           <div class="mywork-pics">
             <div class="image-container image-1">
               <a href="https://mnteo96.github.io/memorygame/" target="_blank"
