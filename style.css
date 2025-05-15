@@ -332,6 +332,10 @@ h1{
     gap: 20px;
 }
 
+.programs img{
+    width: 100%;
+}
+
 .programscontainer ul{
     margin-top: 60px;
     color: rgb(231, 234, 235);
