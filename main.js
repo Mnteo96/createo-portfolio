@@ -31,7 +31,11 @@ const translations = {
         ux: "- UX design alapismeretek",
         dataanalysis: "- adatelemzés alapismeretek",
         graphicdesign: "- grafikai alapismeretek",
-        someworksofmine: "Néhány munkám.."
+        someworksofmine: "Néhány munkám..",
+        myprojects1:"Még nem dolgoztam hivatalosan IT területen, és grafikusként is csak rövid időre volt lehetőségem kipróbálni magam, ennek ellenére a digitális alkotás mindig is közel állt hozzám, és az elmúlt években egyre tudatosabban kezdtem el fejleszteni magam ezen a területen.",
+        myprojects2:"Fontosnak tartom, hogy ne csak elméletből, hanem gyakorlati projekteken keresztül tanuljak, ezért igyekszem rendszeresen kisebb-nagyobb webes vagy grafikai munkákat készíteni — ezekből válogattam néhányat az alábbiakban.",
+        myprojects3:"Ezek a munkák tükrözik, hol tartok most, és azt is, hogy nyitott vagyok a fejlődésre. Nem tökéletesek, de minden egyes darab mögött tanulás, kitartás és érdeklődés áll.",
+        myprojects4:"A célom, hogy idővel egy olyan munkakörbe kerülhessek, ahol nemcsak használhatom, hanem tovább is fejleszthetem a megszerzett tudásomat.",
     },
 
     en:{
@@ -66,7 +70,11 @@ const translations = {
         ux: "- Basic knowledge of UX design",
         dataanalysis: "- Basic knowledge of data analysis",
         graphicdesign: "- Basic knowledge of graphic design",
-        someworksofmine: "Some of my work..."
+        someworksofmine: "Some of my work...",
+        myprojects1:"I haven't officially worked in the IT field yet, and I only had a short opportunity to try myself as a graphic designer, still, digital creation has always been close to my heart, and in recent years, I’ve started to consciously develop my skills in this area.",
+        myprojects2:"I believe it’s important to learn not only from theory but through hands-on projects as well, so I regularly try to create smaller or larger web and graphic works — I've selected a few of these below.",
+        myprojects3:"These works reflect where I am right now and also show that I’m open to growth. They’re not perfect, but behind each one is learning, perseverance, and curiosity.",
+        myprojects4:"My goal is to eventually find a role where I can not only use but also further develop the knowledge I’ve gained.",
 
     }
 }

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreaTeo Design</title>
+
+    <!--Icon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="CreaTeo Design" />
+    <meta
+      property="og:description"
+      content="Frontend fejlesztő és grafikus portfólió - saját projektek, UX, design és kreatív munka."
+    />
+    <meta
+      property="og:image"
+      content="images/og_image_new.png"
+      alt="Egy vektroros illusztráció rólam és a CreaTeo design felirat"
+    />
+    <meta property="og:url" content="https://createodesign.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CreaTeo Design" />
+
+    <!--CSS, JS-->
+    <link rel="stylesheet" href="munkaim.css" />
+    <script src="main.js" defer></script>
+  </head>
+<body>
+    <!--Flags-->
+    <div class="flags">
+      <img
+        src="images/hun-flag.png"
+        alt=""
+        data-id="huflag"
+        onclick="setLanguage('hu')"
+      />
+      <img
+        src="images/en-flag.png"
+        alt=""
+        data-id="enflag"
+        onclick="setLanguage('en')"
+      />
+    </div>
+    <!--Navigation-->
+    <nav class="container">
+      <div class="hamburger">
+        <img
+          src="images/Createo-logo.svg"
+          alt="Createo logo"
+          class="createo-logo-mini"
+        />
+        <img
+          src="images/hamburger.png"
+          alt="Hamburger menu icon"
+          class="hamburger-icon"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" data-id="home">Főoldal</a></li>
+        <li><a href="munkaim.html" data-id="work">Munkáim</a></li>
+        <li class="main-logo">
+          <img
+            src="images/Createo-logo.svg"
+            alt="Createo logó"
+            class="createo-logo"
+          />
+        </li>
+        <li><a href="#" data-id="about">Rólam</a></li>
+        <li><a href="#" data-id="blog">Blog</a></li>
+        <ul class="mobile-flag">
+          <li>
+            <img
+              src="images/hun-flag.png"
+              alt=""
+              class="mb-flag"
+              data-id="huflag"
+              onclick="setLanguage('hu')"
+            />
+          </li>
+          <li>
+            <img
+              src="images/en-flag.png"
+              alt=""
+              class="mb-flag"
+              data-id="enflag"
+              onclick="setLanguage('en')"
+            />
+          </li>
+        </ul>
+      </ul>
+    </nav>
+
+    <!--Main-->
+    <main class="container" >
+        <h1 data-id="myprojects">Munkáim</h1>
+        <p data-id="myprojects1">Még nem dolgoztam hivatalosan IT területen, és grafikusként is csak rövid időre volt lehetőségem kipróbálni magam, ennek ellenére a digitális alkotás mindig is közel állt hozzám, és az elmúlt években egyre tudatosabban kezdtem el fejleszteni magam ezen a területen.</p>
+        <p data-id="myprojects2">Fontosnak tartom, hogy ne csak elméletből, hanem gyakorlati projekteken keresztül tanuljak, ezért igyekszem rendszeresen kisebb-nagyobb webes vagy grafikai munkákat készíteni — ezekből válogattam néhányat az alábbiakban.</p>
+        <p data-id="myprojects3">Ezek a munkák tükrözik, hol tartok most, és azt is, hogy nyitott vagyok a fejlődésre. Nem tökéletesek, de minden egyes darab mögött tanulás, kitartás és érdeklődés áll.</p> 
+        <p data-id="myprojects4">A célom, hogy idővel egy olyan munkakörbe kerülhessek, ahol nemcsak használhatom, hanem tovább is fejleszthetem a megszerzett tudásomat.</p>
+
+         <!--First section-->
+      <section class="container first-section">
+        <div class="myworks">
+            
+          <div class="myworkscard fancy-border">
+            <a href="#">
+              <img src="images/paintandbrush.png" alt="Festékpaletta ikon" />
+              <p data-id="graphic">Grafika</p>
+            </a>
+          </div>
+
+          <div class="myworkscard fancy-border">
+            <a href="#">
+              <img src="images/code.png" alt="Kódolást jelző ikon" />
+              <p>Frontend</p>
+            </a>
+          </div>
+          <div class="myworkscard fancy-border">
+            <a href="#">
+              <img src="images/search.png" alt="Nagyító ikon" />
+              <p data-id="other">Egyéb</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+     <!--Footer-->
+    <footer class="container">
+      <div class="social insta">
+        <img src="images/insta.png" alt="Instagram logó" />
+        <a href="https://www.instagram.com/createo.design/" target="_blank"
+          ><p>createo.design</p>
+        </a>
+      </div>
+      <div class="social git">
+        <img src="images/git.png" alt="Github logó" />
+        <a href="https://github.com/Mnteo96" target="_blank">
+          <p>Mnteo96</p>
+        </a>
+      </div>
+    </footer>
+
+    
+</body>
+</html>

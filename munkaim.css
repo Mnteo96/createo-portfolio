@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222223;
+    padding-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.big-divider{
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+}
+
+/*Flags-------------*/
+.flags{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.flags img{
+    max-width: 60px;
+    cursor: pointer;
+}
+
+
+.tablet-flags{
+    display: none;
+}
+
+.mobile-flag{
+    display: none;
+}
+
+/*Navigation----------------*/
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(231, 234, 235);
+}
+
+nav ul li a:hover{
+    background: linear-gradient(90deg, #E11180, #46C7F4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav .createo-logo{
+    width: 60px;
+}
+
+.hamburger{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.createo-logo-mini, .hamburger-icon{
+    width: 30px;
+    display: none;
+}
+
+/*Main --------------------*/
+main{
+    margin: 70px auto 100px auto !important;
+}
+main h1{
+    color: rgb(231, 234, 235);
+    font-family: "Cormorant Upright", serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main p{
+    color: rgb(231, 234, 235);
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+/*First section*/
+.first-section{
+    margin: 80px 0;
+    width: 100%;
+}
+
+.myworks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    color: rgb(231, 234, 235);
+    font-weight: 600;
+    width: 100%;
+}
+
+.myworkscard{
+    flex: 1 1 30%;
+    text-align: center;
+    padding: 40px 20px;
+    cursor: pointer;
+
+}
+
+.myworkscard a:hover p{
+    color: #E11180;
+}
+
+.myworkscard img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.fancy-border {
+    position: relative;
+    border: 4px solid transparent;
+    border-radius: 10px;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-image: 
+      linear-gradient(#222223, #222223), 
+      linear-gradient(90deg, #E11180, #46C7F4);
+    transition: background-position 1s linear;
+    background-size: 100% 100%, 200% 200%;
+    background-position: center center, 0% 0%;
+  }
+  
+  .fancy-border:hover {
+    background-position: center center, 100% 100%;
+  }
+
+/*Footer------------------*/
+footer{
+    margin: 40px auto !important;
+    display: flex;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    color: rgb(231, 234, 235);
+}
+
+.social img{
+    width: 100%;
+    max-width: 50px;
+    margin-right: 20px;
+}
+
+/*Tablet size*/
+@media (max-width: 900px){
+    /*Navigation*/
+    nav .createo-logo{
+        width: 40px;
+    }
+
+    /*Flags-------------*/
+    .flags{
+        display: none;
+    }
+
+    .tablet-flags{
+        display: flex;
+        gap: 30px;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        padding-top: 20px;
+        cursor: pointer;
+    }
+
+    .tablet-flags img{
+        width: 60px;
+    }
+
+
+}
+
+
+/*Mobile size ----------------------------------*/
+@media (max-width: 550px){
+    .container{
+        width: 85%;
+    }
+
+    /*Flags-------------*/
+    .flags{
+        display: none;
+    }
+
+    .mb-flag{
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .mobile-flag{
+        display: flex;
+        gap: 20px;
+    }
+
+    .tablet-flags{
+        display: none;
+
+    }
+
+    /*navigation*/
+    nav{
+        position: relative;
+    }
+
+    .main-logo{
+        display: none;
+    }
+
+    .createo-logo-mini, .hamburger-icon{
+        display: block;
+        width: 40px;
+    }
+
+    .nav-links li{
+        padding: 20px 5px;
+    }
+
+    .hamburger-icon{
+        cursor: pointer;
+        position: relative;
+        z-index: 10; 
+    }
+
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        gap: 0.5rem;
+        background-color: #222223;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    .nav-links.active{
+        display: flex;
+    }
+
+    .myworkscard{
+        justify-content: center;
+    }
+
+    .first-section{
+        margin: 60px auto;
+    }
+
+    
+    /*Footer*/
+    footer{
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .social{
+        margin-right: 0;
+    }
+
+    .social img{
+        width: 100%;
+        max-width: 40px;
+    }
+
+}
+
