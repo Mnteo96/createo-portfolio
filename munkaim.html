@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CreaTeo Design</title>
+    <title>Munkáim</title>
 
     <!--Icon-->
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="munkaim.css" />
     <script src="main.js" defer></script>
   </head>
-<body>
+  <body>
     <!--Flags-->
     <div class="flags">
       <img
@@ -81,7 +81,7 @@
             class="createo-logo"
           />
         </li>
-        <li><a href="#" data-id="about">Rólam</a></li>
+        <li><a href="aboutme.html" data-id="about">Rólam</a></li>
         <li><a href="#" data-id="blog">Blog</a></li>
         <ul class="mobile-flag">
           <li>
@@ -107,17 +107,33 @@
     </nav>
 
     <!--Main-->
-    <main class="container" >
-        <h1 data-id="myprojects">Munkáim</h1>
-        <p data-id="myprojects1">Még nem dolgoztam hivatalosan IT területen, és grafikusként is csak rövid időre volt lehetőségem kipróbálni magam, ennek ellenére a digitális alkotás mindig is közel állt hozzám, és az elmúlt években egyre tudatosabban kezdtem el fejleszteni magam ezen a területen.</p>
-        <p data-id="myprojects2">Fontosnak tartom, hogy ne csak elméletből, hanem gyakorlati projekteken keresztül tanuljak, ezért igyekszem rendszeresen kisebb-nagyobb webes vagy grafikai munkákat készíteni — ezekből válogattam néhányat az alábbiakban.</p>
-        <p data-id="myprojects3">Ezek a munkák tükrözik, hol tartok most, és azt is, hogy nyitott vagyok a fejlődésre. Nem tökéletesek, de minden egyes darab mögött tanulás, kitartás és érdeklődés áll.</p> 
-        <p data-id="myprojects4">A célom, hogy idővel egy olyan munkakörbe kerülhessek, ahol nemcsak használhatom, hanem tovább is fejleszthetem a megszerzett tudásomat.</p>
+    <main class="container">
+      <h1 data-id="myprojects">Munkáim</h1>
+      <p data-id="myprojects1">
+        Még nem dolgoztam hivatalosan IT területen, és grafikusként is csak
+        rövid időre volt lehetőségem kipróbálni magam, ennek ellenére a
+        digitális alkotás mindig is közel állt hozzám, és az elmúlt években
+        egyre tudatosabban kezdtem el fejleszteni magam ezen a területen.
+      </p>
+      <p data-id="myprojects2">
+        Fontosnak tartom, hogy ne csak elméletből, hanem gyakorlati projekteken
+        keresztül tanuljak, ezért igyekszem rendszeresen kisebb-nagyobb webes
+        vagy grafikai munkákat készíteni — ezekből válogattam néhányat az
+        alábbiakban.
+      </p>
+      <p data-id="myprojects3">
+        Ezek a munkák tükrözik, hol tartok most, és azt is, hogy nyitott vagyok
+        a fejlődésre. Nem tökéletesek, de minden egyes darab mögött tanulás,
+        kitartás és érdeklődés áll.
+      </p>
+      <p data-id="myprojects4">
+        A célom, hogy idővel egy olyan munkakörbe kerülhessek, ahol nemcsak
+        használhatom, hanem tovább is fejleszthetem a megszerzett tudásomat.
+      </p>
 
-         <!--First section-->
+      <!--First section-->
       <section class="container first-section">
         <div class="myworks">
-            
           <div class="myworkscard fancy-border">
             <a href="#">
               <img src="images/paintandbrush.png" alt="Festékpaletta ikon" />
@@ -141,9 +157,7 @@
       </section>
     </main>
 
-
-
-     <!--Footer-->
+    <!--Footer-->
     <footer class="container">
       <div class="social insta">
         <img src="images/insta.png" alt="Instagram logó" />
@@ -159,6 +173,13 @@
       </div>
     </footer>
 
-    
-</body>
+    <script>
+      const hamburger = document.querySelector(".hamburger-icon");
+      const menu = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
+  </body>
 </html>

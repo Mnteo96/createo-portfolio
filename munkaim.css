@@ -211,6 +211,19 @@ footer{
 
 }
 
+@media (max-width: 750px){
+    .myworks{
+    display: block;
+    gap: 50px;
+    }
+
+    .myworkscard{
+        flex: 1;
+        padding: 30px 10px;
+        margin-bottom: 20px;
+    }
+}
+
 
 /*Mobile size ----------------------------------*/
 @media (max-width: 550px){

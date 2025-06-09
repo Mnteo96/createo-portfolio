@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rólam</title>
+
+    <!--Icon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="CreaTeo Design" />
+    <meta
+      property="og:description"
+      content="Frontend fejlesztő és grafikus portfólió - saját projektek, UX, design és kreatív munka."
+    />
+    <meta
+      property="og:image"
+      content="images/og_image_new.png"
+      alt="Egy vektroros illusztráció rólam és a CreaTeo design felirat"
+    />
+    <meta property="og:url" content="https://createodesign.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CreaTeo Design" />
+
+    <!--CSS, JS-->
+    <link rel="stylesheet" href="munkaim.css" />
+    <link rel="stylesheet" href="aboutme.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!--Flags-->
+    <div class="flags">
+      <img
+        src="images/hun-flag.png"
+        alt=""
+        data-id="huflag"
+        onclick="setLanguage('hu')"
+      />
+      <img
+        src="images/en-flag.png"
+        alt=""
+        data-id="enflag"
+        onclick="setLanguage('en')"
+      />
+    </div>
+    <!--Navigation-->
+    <nav class="container">
+      <div class="hamburger">
+        <img
+          src="images/Createo-logo.svg"
+          alt="Createo logo"
+          class="createo-logo-mini"
+        />
+        <img
+          src="images/hamburger.png"
+          alt="Hamburger menu icon"
+          class="hamburger-icon"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" data-id="home">Főoldal</a></li>
+        <li><a href="munkaim.html" data-id="work">Munkáim</a></li>
+        <li class="main-logo">
+          <img
+            src="images/Createo-logo.svg"
+            alt="Createo logó"
+            class="createo-logo"
+          />
+        </li>
+        <li><a href="aboutme.html" data-id="about">Rólam</a></li>
+        <li><a href="#" data-id="blog">Blog</a></li>
+        <ul class="mobile-flag">
+          <li>
+            <img
+              src="images/hun-flag.png"
+              alt=""
+              class="mb-flag"
+              data-id="huflag"
+              onclick="setLanguage('hu')"
+            />
+          </li>
+          <li>
+            <img
+              src="images/en-flag.png"
+              alt=""
+              class="mb-flag"
+              data-id="enflag"
+              onclick="setLanguage('en')"
+            />
+          </li>
+        </ul>
+      </ul>
+    </nav>
+
+    <!--Main-->
+    <main class="container">
+      <img
+        src="images/me-wh-bg.svg"
+        alt="A vector picture about me."
+        id="me-wh-bg"
+      />
+      <h2 data-id="sayhello">Üdvözöllek!</h2>
+      <p data-id="aboutme1">
+        Ahogy a főoldalon is olvashattad, a nevem
+        <span class="highlighted-blue">Teo</span>, 29 éves vagyok, és jelenleg
+        <strong>karrierváltóként az IT világában keresem a helyem</strong>.
+      </p>
+      <p data-id="aboutme2">
+        A weboldalak iránti érdeklődésem már tinédzserkoromban elkezdődött —
+        akkoriban még a Gportal és a MiLapunk felületein készítettem blogokat és
+        hobbiprojekteket. <br />Érettségi után nem jelentkeztem felsőoktatásba,
+        mivel akkor még nem tudtam pontosan, milyen irányban szeretnék
+        továbbtanulni. Ehelyett fizikai munkát vállaltam, hogy önállóan
+        megéljek, és közben időt adjak magamnak arra, hogy megtaláljam a hozzám
+        illő utat.
+      </p>
+      <p data-id="aboutme3">
+        Munka mellett több képzést is elvégeztem:
+        <span class='highlighted-blue'>barista</span> és
+        <span class='highlighted-blue'>mesterbarista</span> képesítést
+        szereztem, megszereztem a
+        <span class='highlighted-blue'>jogosítványomat</span>, valamint letettem
+        egy <span class='highlighted-blue'>B2-es angol nyelvvizsgát</span>. Ezen
+        kívül <span class='highlighted-blue'>grafikus OKJ</span> végzettséggel
+        is rendelkezem.
+      </p>
+      <p data-id="aboutme4">
+        Bár a grafika mindig is közel állt hozzám, egy negatív szakmai
+        tapasztalat miatt egy időre háttérbe szorult. Az elmúlt időszakban
+        viszont azon is dolgozom, hogy
+        <strong>visszanyerjem a kreatív alkotás iránti lelkesedésemet</strong>,
+        és újra örömet találjak a vizuális munkában.
+      </p>
+      <p data-id="aboutme5">
+        Később ismét nyitottam az informatika felé — egy szoftverfejlesztő és
+        tesztelő képzés során ismerkedtem meg a frontendes alapokkal, amelyek
+        teljesen magukkal ragadtak. Azóta
+        <span class="highlighted-blue">önállóan, saját tempómban tanulok</span>
+        különböző platformokon, mint a <b>Coursera</b>, a <b>freeCodeCamp</b> és
+        a <b>The Odin Project</b>.
+      </p>
+      <p data-id="aboutme6">
+        A célom, hogy olyan munkát találjak, ahol nemcsak tovább
+        <span class="highlighted-blue">fejlődhetek</span>, hanem értéket is
+        teremthetek — akár grafikusként, akár frontend fejlesztőként.
+      </p>
+
+      <!--Divider-->
+      <img src="images/divider.png" alt="" class="divider" />
+
+      <!--More about me-->
+      <section id="about-me">
+        <div id="aboutme-left">
+          <h2 data-id="shortAboutMe">Néhány dolog rólam</h2>
+          <ul>
+            <li data-id="shortAboutMe1">
+              - Imádok <span class="highlighted-pink">olvasni</span> - egy jó
+              fantasy, horror vagy krimi bármikor leköt
+            </li>
+            <li data-id="shortAboutMe2">
+              - Az <span class="highlighted-pink">ősz</span> a kedvenc évszakom
+              - szeretem az eső illatát, a sárguló leveleket, a Halloween
+              hangulatát és a bekuckózós délutánokat egy jó könyvvel és teával.
+            </li>
+            <li data-id="shortAboutMe3">
+              - Van <span class="highlighted-pink">két cicám</span> (Zsebi és
+              Hella), egy
+              <span class="highlighted-pink">csehszlovák farkaskutyám</span>
+              (Loki) és egy
+              <span class="highlighted-pink">gabonasiklóm</span> (Mazekeen)
+            </li>
+            <li data-id="shortAboutMe4">
+              - <span class="highlighted-pink">Introvertált</span> vagyok - a
+              csend és a nyugalom tölt fel igazán
+            </li>
+            <li data-id="shortAboutMe5">
+              - Szeretek <span class="highlighted-pink">utazni</span> - a
+              bakancslistám végtelen hosszú
+            </li>
+            <li data-id="shortAboutMe6">
+              - Imádom a
+              <span class="highlighted-pink">lassú reggeleket </span>, amikor
+              van időm egy forró
+              <span class="highlighted-pink">kávé</span> mellett olvasni
+            </li>
+            <li data-id="shortAboutMe7">
+              - Hobbiként
+              <span class="highlighted-pink">nyelveket tanulok</span> – jelenleg
+              az olasz és a német nyelvvel ismerkedem.
+            </li>
+            <li data-id="shortAboutMe8">
+              - Sokáig szerettem
+              <span class="highlighted-pink">rajzolni és fotózni</span>, de egy
+              hosszabb kreatív blokk miatt háttérbe szorultak. Most azon
+              dolgozom, hogy újra visszataláljak hozzájuk
+            </li>
+          </ul>
+        </div>
+        <div class="aboutme-right">
+          <img src="images/mypets.png" alt="" id="my-pets" />
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="container">
+      <div class="social insta">
+        <img src="images/insta.png" alt="Instagram logó" />
+        <a href="https://www.instagram.com/createo.design/" target="_blank"
+          ><p>createo.design</p>
+        </a>
+      </div>
+      <div class="social git">
+        <img src="images/git.png" alt="Github logó" />
+        <a href="https://github.com/Mnteo96" target="_blank">
+          <p>Mnteo96</p>
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger-icon");
+      const menu = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

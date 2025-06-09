@@ -1,0 +1,76 @@
+main #me-wh-bg{
+    width: 40%;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+main h2{
+    color: rgb(231, 234, 235);
+    font-family: "Cormorant Upright", serif;
+}
+
+.highlighted-blue{
+    font-weight: bold;
+    color: #46C7F4;
+}
+
+.highlighted-pink{
+    font-weight: bold;
+    color: #E11180;
+}
+
+.divider{
+    width: 100%;
+    margin: 20px 0;
+}
+
+#about-me{
+    display: flex;
+    flex: 4fr 1fr;
+    align-items: center;
+    gap: 20px
+}
+
+#aboutme-left{
+    margin: auto 0;
+}
+
+.aboutme-right{
+    width: 100%;
+    text-align: center;
+}
+
+ul{
+    color: rgb(231, 234, 235);
+    margin-top: 20px;
+    line-height: 1.2;
+}
+
+ul li{
+    margin-bottom: 15px;
+}
+
+#my-pets{
+    width: 80%;
+}
+
+/*Tablet size*/
+
+@media (max-width: 900px){
+    #about-me{
+        display: block;
+    }
+}
+
+@media (max-width: 600px){
+    main #me-wh-bg{
+    width: 80%;
+    float: none;
+    margin: 0 0 40px 0;
+}
+
+    main{
+        text-align: center;
+    }
+}
