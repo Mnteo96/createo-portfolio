@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreaTeo Design</title>
+
+    <!--Icon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="CreaTeo Design" />
+    <meta
+      property="og:description"
+      content="Frontend fejlesztő és grafikus portfólió - saját projektek, UX, design és kreatív munka."
+    />
+    <meta
+      property="og:image"
+      content="images/og_image_new.png"
+      alt="Egy vektroros illusztráció rólam és a CreaTeo design felirat"
+    />
+    <meta property="og:url" content="https://createodesign.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CreaTeo Design" />
+
+    <!--CSS, JS-->
+    <link rel="stylesheet" href="frontend.css" />
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <!--Flags-->
+    <div class="flags">
+      <img
+        src="images/hun-flag.png"
+        alt=""
+        data-id="huflag"
+        onclick="setLanguage('hu')"
+      />
+      <img
+        src="images/en-flag.png"
+        alt=""
+        data-id="enflag"
+        onclick="setLanguage('en')"
+      />
+    </div>
+    <!--Navigation-->
+    <nav class="container">
+      <div class="hamburger">
+        <img
+          src="images/Createo-logo.svg"
+          alt="Createo logo"
+          class="createo-logo-mini"
+        />
+        <img
+          src="images/hamburger.png"
+          alt="Hamburger menu icon"
+          class="hamburger-icon"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" data-id="home">Főoldal</a></li>
+        <li><a href="munkaim.html" data-id="work">Munkáim</a></li>
+        <li class="main-logo">
+          <img
+            src="images/Createo-logo.svg"
+            alt="Createo logó"
+            class="createo-logo"
+          />
+        </li>
+        <li><a href="aboutme.html" data-id="about">Rólam</a></li>
+        <li><a href="#" data-id="blog">Blog</a></li>
+        <ul class="mobile-flag">
+          <li>
+            <img
+              src="images/hun-flag.png"
+              alt=""
+              class="mb-flag"
+              data-id="huflag"
+              onclick="setLanguage('hu')"
+            />
+          </li>
+          <li>
+            <img
+              src="images/en-flag.png"
+              alt=""
+              class="mb-flag"
+              data-id="enflag"
+              onclick="setLanguage('en')"
+            />
+          </li>
+        </ul>
+      </ul>
+    </nav>
+
+    <!--Tablet flags-->
+    <div class="tablet-flags">
+          <img
+            src="images/hun-flag.png"
+            alt="Magyar zászló"
+            data-id="huflag"
+            onclick="setLanguage('hu')"
+          />
+          <img
+            src="images/en-flag.png"
+            alt="Angol zászló"
+            data-id="enflag"
+            onclick="setLanguage('en')"
+          />
+        </div>
+
+    <!--Main-->
+    <div class="container">
+      <!--First section-->
+      <section class="first-project project">
+        <div class="left">
+          <a href="https://mnteo96.github.io/beeworld/" target="_blank"
+            ><img src="images/beeworld.png" alt=""
+          /></a>
+        </div>
+        <div class="right">
+          <h1>BeeWorld</h1>
+          <p data-id="frontend1">
+            A <strong class="blue">BeeWorld</strong> egy pixeles stílusú játék,
+            amelynek elkészítéséhez HTML-t, CSS-t és JavaScriptet használtam.
+          </p>
+
+          <p data-id="frontend2">
+            A játék célja, hogy a játékos a kis méhecskét fel-le mozgatva –
+            laptopon a nyílbillentyűk, mobilon az ujj húzásával – összegyűjtsön
+            20 virágot, miközben elkerüli a mérgező gombákat és a veszélyes
+            darazsakat.
+          </p>
+
+          <p data-id="frontend3">
+            A projektet azért hoztam létre, hogy
+            <strong class="blue"
+              >gyakoroljam a JavaScript használatát a gyakorlatban</strong
+            >, valamint hogy fejlesszem a problémamegoldó készségeimet az
+            interaktív elemek megvalósításával. A fejlesztés során számos új
+            kihívással találkoztam, amelyek segítettek elmélyíteni a tudásomat
+            és javítani a kódszervezési technikáimat.
+          </p>
+          <p data-id="frontend4">
+            Bár a fejlesztés nem volt teljesen önálló – a ChatGPT gyakran
+            segített technikai kérdésekben –, a játékot saját ötletem alapján
+            hoztam létre. Ez egy fontos mérföldkő számomra a tanulás útján.
+          </p>
+        </div>
+      </section>
+
+      <img src="images/divider.png" alt="" class="divider" />
+
+      <!--Second section-->
+      <section class="second-project project">
+        <div class="left">
+          <h1>Purrfect Transformations</h1>
+          <p data-id="frontend5">
+            A <strong class="blue">Purrfect Transformations</strong> egy
+            egyszerű, interaktív projekt, amelyet a JavaScript gyakorlására
+            hoztam létre.
+          </p>
+          <p data-id="frontend6">
+            A felhasználó egy gombnyomással megnézheti,
+            <strong class="blue"
+              >hogyan néz ki egy cica kiskorában és felnőttként</strong
+            >.
+          </p>
+          <p data-id="frontend7">
+            A HTML, CSS és JavaScript mellett a
+            <strong class="blue">Photoshopot</strong> is használtam, hogy a
+            képeket körbevágjam és jobban illeszkedjenek az oldal stílusához.
+          </p>
+          <p data-id="frontend8">
+            Ez a projekt segített elmélyíteni a DOM-kezeléssel kapcsolatos
+            tudásomat, és öröm volt kombinálni a programozást egy kis grafikai
+            munkával is.
+          </p>
+        </div>
+        <div class="right">
+          <a
+            href="https://mnteo96.github.io/purrfecttransformation/"
+            target="_blank"
+            ><img src="images/purrfecttransformation2.png" alt=""
+          /></a>
+        </div>
+      </section>
+
+      <img src="images/divider.png" alt="" class="divider" />
+
+      <!--Third section-->
+      <section class="third-project project">
+        <div class="left">
+          <a href="https://mnteo96.github.io/memorygame/" target="_blank"
+            ><img src="images/memory.png" alt=""
+          /></a>
+        </div>
+        <div class="right">
+          <h1>Memory Game</h1>
+          <p data-id="frontend9">
+            Ez az <strong class="blue">állatos memóriajáték</strong>is a JavaScript gyakorlása céljából készült.
+          </p>
+          <p data-id="frontend10">
+            A játékos feladata, hogy <strong class="blue">megtalálja az azonos képpárokat</strong>. A program
+            számolja a próbálkozásokat, és a játék végén egy visszajelző
+            üzenetet is megjelenít.
+          </p>
+          <p data-id="frontend11">
+            Ez a projekt segített jobban megérteni az eseménykezelést, az
+            állapotkövetést és a DOM-dinamikát.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!--Footer-->
+    <footer class="container">
+      <div class="social insta">
+        <img src="images/insta.png" alt="Instagram logó" />
+        <a href="https://www.instagram.com/createo.design/" target="_blank"
+          ><p>createo.design</p>
+        </a>
+      </div>
+      <div class="social git">
+        <img src="images/git.png" alt="Github logó" />
+        <a href="https://github.com/Mnteo96" target="_blank">
+          <p>Mnteo96</p>
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger-icon");
+      const menu = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

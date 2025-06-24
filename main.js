@@ -52,6 +52,17 @@ const translations = {
         shortAboutMe6:"- Imádom a <span class='highlighted-pink'>lassú reggeleket </span>, amikor van időm egy forró <span class='highlighted-pink'>kávé</span> mellett olvasni",
         shortAboutMe7:"- Hobbiként <span class='highlighted-pink'>nyelveket tanulok</span> – jelenleg az olasz és a német nyelvvel ismerkedem.",
         shortAboutMe8:"- Sokáig szerettem <span class='highlighted-pink'>rajzolni és fotózni</span>, de egy hosszabb kreatív blokk miatt háttérbe szorultak. Most azon dolgozom, hogy újra visszataláljak hozzájuk",
+        frontend1:"A <strong class='blue'>BeeWorld</strong> egy pixeles stílusú játék, amelynek elkészítéséhez HTML-t, CSS-t és JavaScriptet használtam.",
+        frontend2:"A játék célja, hogy a játékos a kis méhecskét fel-le mozgatva – laptopon a nyílbillentyűk, mobilon az ujj húzásával – összegyűjtsön 20 virágot, miközben elkerüli a mérgező gombákat és a veszélyes darazsakat.",
+        frontend3:"A projektet azért hoztam létre, hogy <strong class='blue'>gyakoroljam a JavaScript használatát a gyakorlatban</strong>, valamint hogy fejlesszem a problémamegoldó készségeimet az interaktív elemek megvalósításával. A fejlesztés során számos új kihívással találkoztam, amelyek segítettek elmélyíteni a tudásomat és javítani a kódszervezési technikáimat.",
+        frontend4:"Bár a fejlesztés nem volt teljesen önálló – a ChatGPT gyakran segített technikai kérdésekben hoztam létre. Ez egy fontos mérföldkő számomra a tanulás útján.",
+        frontend5:"A <strong class='blue'>Purrfect Transformations</strong> egy egyszerű, interaktív projekt, amelyet a JavaScript gyakorlására hoztam létre.",
+        frontend6:"A felhasználó egy gombnyomással megnézheti, <strong class='blue'>hogyan néz ki egy cica kiskorában és felnőttként</strong>.",
+        frontend7:"A HTML, CSS és JavaScript mellett a <strong class='blue'>Photoshopot</strong> is használtam, hogy a képeket körbevágjam és jobban illeszkedjenek az oldal stílusához.",
+        frontend8:"Ez a projekt segített elmélyíteni a DOM-kezeléssel kapcsolatos tudásomat, és öröm volt kombinálni a programozást egy kis grafikai munkával is.",
+        frontend9:"Ez az <strong class='blue'>állatos memóriajáték</strong>is a JavaScript gyakorlása céljából készült.",
+        frontend10:"A játékos feladata, hogy <strong class='blue'>megtalálja az azonos képpárokat</strong>. A program számolja a próbálkozásokat, és a játék végén egy visszajelző üzenetet is megjelenít.",
+        frontend11:"Ez a projekt segített jobban megérteni az eseménykezelést, az állapotkövetést és a DOM-dinamikát."
 
     },
 
@@ -108,6 +119,19 @@ const translations = {
         shortAboutMe6:"- I adore <span class='highlighted-pink'>slow mornings</span>, when I can read with a <span class='highlighted-pink'>hot coffee</span> in hand",
         shortAboutMe7:"- As a hobby, I <span class='highlighted-pink'>study languages</span> – currently exploring Italian and German",
         shortAboutMe8:"- I used to love <span class='highlighted-pink'>drawing and photography</span>, but a long creative block pushed them into the background. Now I’m working on reconnecting with them again",
+        frontend1: "The <strong class='blue'>BeeWorld</strong> is a pixel-style game created using HTML, CSS, and JavaScript.",
+frontend2: "The goal is to move the little bee up and down — using arrow keys on laptops or swipe gestures on mobile — to collect 20 flowers while avoiding poisonous mushrooms and dangerous wasps.",
+frontend3: "I created this project to <strong class='blue'>practice using JavaScript in a hands-on way</strong> and to improve my problem-solving skills by building interactive elements. During development, I encountered many new challenges that helped me deepen my understanding and improve my code organization techniques.",
+frontend4: "Although the development wasn't entirely independent — I received a lot of technical help from ChatGPT — this project marks an important milestone for me on my learning journey.",
+frontend5: "<strong class='blue'>Purrfect Transformations</strong> is a simple, interactive project I created to practice JavaScript.",
+frontend6: "With the click of a button, the user can see <strong class='blue'>how a cat looks as a kitten and as an adult</strong>.",
+frontend7: "In addition to HTML, CSS, and JavaScript, I also used <strong class='blue'>Photoshop</strong> to cut out the cat images so they better fit the design of the page.",
+frontend8: "This project helped me strengthen my knowledge of DOM manipulation and gave me the joy of combining coding with a bit of graphic design.",
+frontend9: "This <strong class='blue'>animal-themed memory game</strong> was also created to practice JavaScript.",
+frontend10: "The goal is to <strong class='blue'>find matching image pairs</strong>. The program counts your attempts and displays a feedback message at the end.",
+frontend11: "Through this project, I gained a better understanding of event handling, state management, and DOM dynamics."
+
+
 
     }
 }
