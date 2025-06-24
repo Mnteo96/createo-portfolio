@@ -53,6 +53,7 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 10;
 }
 
 nav ul li{
@@ -89,6 +90,10 @@ nav .createo-logo{
 
 
 /*Main-----------------------*/
+main{
+    margin-bottom: 100px;
+}
+
 .container{
     margin-top: 80px;
     color: rgb(231, 234, 235)
@@ -149,9 +154,7 @@ nav .createo-logo{
     height: 10%;
 }
 
-.second-project{
-    flex-direction: column-reverse;
-}
+
 
 
 /*Footer------------------*/
@@ -191,6 +194,10 @@ footer{
     gap: 20px;
 }
 
+.second-project{
+    flex-direction: column-reverse;
+}
+
 .project img{
     width: 100%;
     filter: grayscale(0%);
@@ -220,6 +227,10 @@ footer{
 
     .tablet-flags img{
         width: 60px;
+    }
+
+    main{
+    margin-bottom: 60px;
     }
 
     .container{
