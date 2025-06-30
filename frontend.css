@@ -94,6 +94,11 @@ main{
     margin-bottom: 100px;
 }
 
+main h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .container{
     margin-top: 80px;
     color: rgb(231, 234, 235)
@@ -185,7 +190,7 @@ footer{
 }
 
 /*Tablet size*/
-@media (max-width: 1000px){
+@media (max-width: 1100px){
 
 .project{
     width: 100%;

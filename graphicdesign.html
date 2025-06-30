@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grafikai munkáimm</title>
+
+    <!--Icon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="CreaTeo Design" />
+    <meta
+      property="og:description"
+      content="Frontend fejlesztő és grafikus portfólió - saját projektek, UX, design és kreatív munka."
+    />
+    <meta
+      property="og:image"
+      content="images/og_image_new.png"
+      alt="Egy vektroros illusztráció rólam és a CreaTeo design felirat"
+    />
+    <meta property="og:url" content="https://createodesign.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CreaTeo Design" />
+
+    <!--CSS, JS-->
+    <link rel="stylesheet" href="graphicdesign.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!--Flags-->
+    <div class="flags">
+      <img
+        src="images/hun-flag.png"
+        alt=""
+        data-id="huflag"
+        onclick="setLanguage('hu')"
+      />
+      <img
+        src="images/en-flag.png"
+        alt=""
+        data-id="enflag"
+        onclick="setLanguage('en')"
+      />
+    </div>
+    <!--Navigation-->
+    <nav class="container">
+      <div class="hamburger">
+        <img
+          src="images/Createo-logo.svg"
+          alt="Createo logo"
+          class="createo-logo-mini"
+        />
+        <img
+          src="images/hamburger.png"
+          alt="Hamburger menu icon"
+          class="hamburger-icon"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" data-id="home">Főoldal</a></li>
+        <li><a href="munkaim.html" data-id="work">Munkáim</a></li>
+        <li class="main-logo">
+          <img
+            src="images/Createo-logo.svg"
+            alt="Createo logó"
+            class="createo-logo"
+          />
+        </li>
+        <li><a href="aboutme.html" data-id="about">Rólam</a></li>
+        <li><a href="#" data-id="blog">Blog</a></li>
+        <ul class="mobile-flag">
+          <li>
+            <img
+              src="images/hun-flag.png"
+              alt=""
+              class="mb-flag"
+              data-id="huflag"
+              onclick="setLanguage('hu')"
+            />
+          </li>
+          <li>
+            <img
+              src="images/en-flag.png"
+              alt=""
+              class="mb-flag"
+              data-id="enflag"
+              onclick="setLanguage('en')"
+            />
+          </li>
+        </ul>
+      </ul>
+    </nav>
+
+    <!--Tablet flags-->
+    <div class="tablet-flags">
+      <img
+        src="images/hun-flag.png"
+        alt="Magyar zászló"
+        data-id="huflag"
+        onclick="setLanguage('hu')"
+      />
+      <img
+        src="images/en-flag.png"
+        alt="Angol zászló"
+        data-id="enflag"
+        onclick="setLanguage('en')"
+      />
+    </div>
+
+    <!--Main-->
+    <main class="container">
+      <h1 data-id="grMunka">Grafikai munkáim</h1>
+      <a
+        href="images/Márkus_Netti_Teodóra_portfólió_2025.pdf"
+        target="_blank"
+        data-id="portfolioLink"
+        class="portfolioLink"
+        >Teljes portfólió megtekintése PDF-ben</a
+      >
+
+      <!--Vektoros rajzok-->
+      <section class="first-section">
+        <h2 data-id="vektorRajzok">Vektoros rajzok</h2>
+        <p data-id="vektRajzSzov">
+          Szabadidőmben szeretek vektoros illusztrációkat készíteni, főleg
+          állatokról, növényekről és emberekről. Itt néhány kedvenc munkámat
+          gyűjtöttem össze.
+        </p>
+        <div class="img-grid">
+          <img
+            src="images/vektor/mywork-01.png"
+            alt="Vektoros rajz Johnny Deppről"
+          />
+          <img
+            src="images/vektor/mywork-04.png"
+            alt="Vektoros rajz egy farkasról"
+            class="hidden-sm"
+          />
+          <img
+            src="images/vektor/mywork-02.png"
+            alt="Vektoros rajz egy németjuhászról"
+          />
+          <img
+            src="images/vektor/mywork-03.png"
+            alt="Vektoros rajz Hilly Hindiről"
+            class="hidden-sm"
+          />
+          <img
+            src="images/vektor/mywork-03-small.png"
+            alt="Vektoros rajz Hilly Hindiről"
+            class="hidden"
+          />
+          <img
+            src="images/vektor/mywork-04-small.png"
+            alt="Vektoros rajz egy farkasról"
+            class="hidden"
+          />
+        </div>
+      </section>
+
+      <!--Logók-->
+      <section class="second-section">
+        <h2 data-id="logokCim">Logók</h2>
+        <p data-id="logokSzov">
+          Bár elsősorban más grafikai területek állnak hozzám közelebb, időnként
+          logótervezéssel is szívesen foglalkozom.
+        </p>
+        <div class="img-grid">
+          <img
+            src="images/logok/logok-01.png"
+            alt="Piros-narancs, v betűt ávrázoló logó villanykörtével"
+          />
+          <img
+            src="images/logok/logok-02.png"
+            alt="Marben felirat, felette a betűiből összerakott logó"
+          />
+          <img
+            src="images/logok/logok-03.png"
+            alt="Egy rókás kávézónak készült logó"
+          />
+          <img
+            src="images/logok/logok-04.png"
+            alt="Pacific calm márkának készült logó"
+          />
+        </div>
+      </section>
+
+      <!--DejaVu fesztivál-->
+      <section class="third-section">
+        <h2 data-id="dejavuCim">Deja vu fesztivál</h2>
+        <p data-id="dejavuSzov">
+          Dolgoztam a Deja vu nevű fesztiválon is, ahol a grafikai anyagok nagy
+          részét én készítettem el – a plakátoktól kezdve a repoharakon és
+          karszalagokon át a közösségi média hirdetésekig. Bevallom, ez a
+          pörgős, nagy volumenű munka nem volt a kedvencem, mégis rengeteget
+          tanultam belőle. Rájöttem, hogy legtöbbet akkor fejlődik az ember,
+          amikor tényleg csinálja.
+        </p>
+        <div class="img-grid">
+          <img
+            src="images/dejavu/dejavu-01.png"
+            alt="Egy telefon amin a socail media meg vagy nyitva és a Deja vu egyik hirdetése jelenik meg"
+          />
+          <img
+            src="images/dejavu/dejavu-02.png"
+            alt="Két belépőkártya a Deja vu fesztiválhoz"
+          />
+          <img
+            src="images/dejavu/dejavu-03.png"
+            alt="A Deja vu jóhelyszínének a térképe"
+          />
+          <img
+            src="images/dejavu/dejavu-04.png"
+            alt="Egy Deja vu-s plakás Basshunterrel"
+          />
+        </div>
+      </section>
+
+      <!--Zöld város-->
+      <section class="third-section">
+        <h2 data-id="zoldvarosCim">Zöld város rendezvény</h2>
+        <p data-id="zoldvarosSzov">
+          A Zöldváros rendezvény grafikai anyagait is én készítettem: plakátok,
+          digitális hirdetések és oklevelek formájában. Célom az volt, hogy
+          egységes, friss és környezettudatos arculattal támogassam az eseményt.
+        </p>
+        <div class="img-grid">
+          <img
+            src="images/zoldvaros/zoldvaros-01.png"
+            alt="Egy ember feltart egy nagy, zöld plakátot"
+          />
+          <img
+            src="images/zoldvaros/zoldvaros-02.png"
+            alt="Zöld színű banner a Zöld város rendezvényhez"
+          />
+          <img
+            src="images/zoldvaros/zoldvaros-03.png"
+            alt="Egy kéz feltart egy zöld szórólapot"
+          />
+          <img
+            src="images/zoldvaros/zoldvaros-04.png"
+            alt="Zöld színű banner a Zöld város rendezvényhez"
+          />
+        </div>
+      </section>
+
+      <!--Vegyes-->
+      <section class="third-section">
+        <h2 data-id="vegyesCim">Vegyes grafikák</h2>
+        <p data-id="vegyesSzov">
+          A vegyes munkák részben a kreatív szabadságé a főszerep: Procreate-ben
+          készült illusztrációk, plakátterv és egy jógaoktatónak készült
+          illusztráció.
+        </p>
+        <div class="img-grid">
+          <img
+            src="images/vegyes/vegyes-01.png"
+            alt="Egy ember feltart egy nagy, zöld plakátot"
+          />
+          <img
+            src="images/vegyes/vegyes-02.png"
+            alt="Zöld színű banner a Zöld város rendezvényhez"
+          />
+          <img
+            src="images/vegyes/vegyes-03.png"
+            alt="Egy kéz feltart egy zöld szórólapot"
+          />
+          <img
+            src="images/vegyes/vegyes-04.png"
+            alt="Zöld színű banner a Zöld város rendezvényhez"
+          />
+        </div>
+      </section>
+
+      <p data-id="endSzov" class="endSzov">
+        Ha érdekelnek a korábbi munkáim, a lap tetejére görgetve találsz egy
+        linket a grafikus portfóliómhoz, vagy látogass el
+        <a
+          href="https://www.instagram.com/createo.design/"
+          target="_blank"
+          class="endLink"
+          >instagram oldalamra</a
+        >!
+      </p>
+    </main>
+
+    <!--Footer-->
+    <footer class="container">
+      <div class="social insta">
+        <img src="images/insta.png" alt="Instagram logó" />
+        <a href="https://www.instagram.com/createo.design/" target="_blank"
+          ><p>createo.design</p>
+        </a>
+      </div>
+      <div class="social git">
+        <img src="images/git.png" alt="Github logó" />
+        <a href="https://github.com/Mnteo96" target="_blank">
+          <p>Mnteo96</p>
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger-icon");
+      const menu = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

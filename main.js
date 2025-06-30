@@ -52,6 +52,7 @@ const translations = {
         shortAboutMe6:"- Imádom a <span class='highlighted-pink'>lassú reggeleket </span>, amikor van időm egy forró <span class='highlighted-pink'>kávé</span> mellett olvasni",
         shortAboutMe7:"- Hobbiként <span class='highlighted-pink'>nyelveket tanulok</span> – jelenleg az olasz és a német nyelvvel ismerkedem.",
         shortAboutMe8:"- Sokáig szerettem <span class='highlighted-pink'>rajzolni és fotózni</span>, de egy hosszabb kreatív blokk miatt háttérbe szorultak. Most azon dolgozom, hogy újra visszataláljak hozzájuk",
+        frCim:"Frontend projektek",
         frontend1:"A <strong class='blue'>BeeWorld</strong> egy pixeles stílusú játék, amelynek elkészítéséhez HTML-t, CSS-t és JavaScriptet használtam.",
         frontend2:"A játék célja, hogy a játékos a kis méhecskét fel-le mozgatva – laptopon a nyílbillentyűk, mobilon az ujj húzásával – összegyűjtsön 20 virágot, miközben elkerüli a mérgező gombákat és a veszélyes darazsakat.",
         frontend3:"A projektet azért hoztam létre, hogy <strong class='blue'>gyakoroljam a JavaScript használatát a gyakorlatban</strong>, valamint hogy fejlesszem a problémamegoldó készségeimet az interaktív elemek megvalósításával. A fejlesztés során számos új kihívással találkoztam, amelyek segítettek elmélyíteni a tudásomat és javítani a kódszervezési technikáimat.",
@@ -62,7 +63,20 @@ const translations = {
         frontend8:"Ez a projekt segített elmélyíteni a DOM-kezeléssel kapcsolatos tudásomat, és öröm volt kombinálni a programozást egy kis grafikai munkával is.",
         frontend9:"Ez az <strong class='blue'>állatos memóriajáték</strong>is a JavaScript gyakorlása céljából készült.",
         frontend10:"A játékos feladata, hogy <strong class='blue'>megtalálja az azonos képpárokat</strong>. A program számolja a próbálkozásokat, és a játék végén egy visszajelző üzenetet is megjelenít.",
-        frontend11:"Ez a projekt segített jobban megérteni az eseménykezelést, az állapotkövetést és a DOM-dinamikát."
+        frontend11:"Ez a projekt segített jobban megérteni az eseménykezelést, az állapotkövetést és a DOM-dinamikát.",
+        grMunka: "Grafikai munkáim",
+        portfolioLink:"Teljes portfólió megtekintése PDF-ben",
+        vektorRajzok:"Vektoros rajzok",
+        vektRajzSzov:"Szabadidőmben szeretek vektoros illusztrációkat készíteni, főleg állatokról, növényekről és emberekről. Itt néhány kedvenc munkámat gyűjtöttem össze.",
+        logokCim:"Logók",
+        logokSzov:"Bár elsősorban más grafikai területek állnak hozzám közelebb, időnként logótervezéssel is szívesen foglalkozom.",
+        dejavuCim:"Deja vu fesztivál",
+        dejavuSzov:"Dolgoztam a Deja vu nevű fesztiválon is, ahol a grafikai anyagok nagy részét én készítettem el – a plakátoktól kezdve a repoharakon és karszalagokon át a közösségi média hirdetésekig. Bevallom, ez a pörgős, nagy volumenű munka nem volt a kedvencem, mégis rengeteget tanultam belőle. Rájöttem, hogy legtöbbet akkor fejlődik az ember, amikor tényleg csinálja.",
+        zoldvarosCim:"Zöld város rendezvény",
+        zoldvarosSzov:"A Zöldváros rendezvény grafikai anyagait is én készítettem: plakátok, digitális hirdetések és oklevelek formájában. Célom az volt, hogy egységes, friss és környezettudatos arculattal támogassam az eseményt.",
+        vegyesCim:"Vegyes grafikák",
+        vegyesSzov:"A vegyes munkák részben a kreatív szabadságé a főszerep: Procreate-ben készült illusztrációk,  plakátterv és egy jógaoktatónak készült illusztráció.",
+        endSzov:"Ha érdekelnek a korábbi munkáim, a lap tetejére görgetve találsz egy linket a grafikus portfóliómhoz, vagy látogass el <a href='https://www.instagram.com/createo.design/' target='_blank'>instagram oldalamra</a>!"
 
     },
 
@@ -119,6 +133,7 @@ const translations = {
         shortAboutMe6:"- I adore <span class='highlighted-pink'>slow mornings</span>, when I can read with a <span class='highlighted-pink'>hot coffee</span> in hand",
         shortAboutMe7:"- As a hobby, I <span class='highlighted-pink'>study languages</span> – currently exploring Italian and German",
         shortAboutMe8:"- I used to love <span class='highlighted-pink'>drawing and photography</span>, but a long creative block pushed them into the background. Now I’m working on reconnecting with them again",
+        frCim:"Frontend projects",
         frontend1: "The <strong class='blue'>BeeWorld</strong> is a pixel-style game created using HTML, CSS, and JavaScript.",
 frontend2: "The goal is to move the little bee up and down — using arrow keys on laptops or swipe gestures on mobile — to collect 20 flowers while avoiding poisonous mushrooms and dangerous wasps.",
 frontend3: "I created this project to <strong class='blue'>practice using JavaScript in a hands-on way</strong> and to improve my problem-solving skills by building interactive elements. During development, I encountered many new challenges that helped me deepen my understanding and improve my code organization techniques.",
@@ -129,11 +144,22 @@ frontend7: "In addition to HTML, CSS, and JavaScript, I also used <strong class=
 frontend8: "This project helped me strengthen my knowledge of DOM manipulation and gave me the joy of combining coding with a bit of graphic design.",
 frontend9: "This <strong class='blue'>animal-themed memory game</strong> was also created to practice JavaScript.",
 frontend10: "The goal is to <strong class='blue'>find matching image pairs</strong>. The program counts your attempts and displays a feedback message at the end.",
-frontend11: "Through this project, I gained a better understanding of event handling, state management, and DOM dynamics."
+frontend11: "Through this project, I gained a better understanding of event handling, state management, and DOM dynamics.",
+  grMunka: "My Graphic Design Projects",
+portfolioLink: "View Full Portfolio (PDF)",
+  vektorRajzok: "Vector Illustrations",
+  vektRajzSzov: "In my free time, I enjoy creating vector illustrations, mainly of animals, plants, and people. Here I've collected a few of my favorite works.",
+  logokCim: "Logos",
+  logokSzov: "Although I feel closer to other areas of graphic design, I still like to experiment with logo design from time to time.",
+  dejavuCim: "Deja Vu Festival",
+  dejavuSzov: "I also worked for the Deja Vu festival, where I created most of the graphic materials – from posters to reusable cups, wristbands, and social media ads. Honestly, this fast-paced, large-scale project wasn’t my favorite, but I still learned a lot from it. I realized that you grow the most when you’re actually doing the work.",
+  zoldvarosCim: "Green City Event",
+  zoldvarosSzov: "I also designed the graphic materials for the Green City event, including posters, digital ads, and certificates. My goal was to support the event with a cohesive, fresh, and eco-friendly visual identity.",
+  vegyesCim: "Miscellaneous Graphics",
+  vegyesSzov: "In this section, creativity takes the spotlight: Procreate illustrations, poster designs, and an illustration created for a yoga instructor.",
+  endSzov: "If you’re interested in seeing more of my previous work, scroll back to the top of the page for a link to my graphic design portfolio, or check out my <a href='https://www.instagram.com/createo.design/' target='_blank' class='endLink'>Instagram page</a>!"
+}
 
-
-
-    }
 }
 
 function setLanguage(language) {
