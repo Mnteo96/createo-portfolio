@@ -76,7 +76,7 @@ const translations = {
         zoldvarosSzov:"A Zöldváros rendezvény grafikai anyagait is én készítettem: plakátok, digitális hirdetések és oklevelek formájában. Célom az volt, hogy egységes, friss és környezettudatos arculattal támogassam az eseményt.",
         vegyesCim:"Vegyes grafikák",
         vegyesSzov:"A vegyes munkák részben a kreatív szabadságé a főszerep: Procreate-ben készült illusztrációk,  plakátterv és egy jógaoktatónak készült illusztráció.",
-        endSzov:"Ha érdekelnek a korábbi munkáim, a lap tetejére görgetve találsz egy linket a grafikus portfóliómhoz, vagy látogass el <a href='https://www.instagram.com/createo.design/' target='_blank'>instagram oldalamra</a>!"
+        endSzov:"Ha érdekelnek a korábbi munkáim, a lap tetejére görgetve találsz egy linket a grafikus portfóliómhoz, vagy látogass el <a href='https://www.instagram.com/createo.design/' target='_blank' class='endLink'>instagram oldalamra</a>!"
 
     },
 
