@@ -1,3 +1,10 @@
+:root{
+    --main-pink: #E11180;
+    --main-blue: #46C7F4;
+    --main-dark: #222223;
+    --main-light: #f1f1f1;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +12,7 @@
 }
 
 body{
-    background-color: #222223;
+    background-color: var(--main-dark);
     padding-top: 20px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -67,11 +74,11 @@ nav ul li{
 
 a{
     text-decoration: none;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
 }
 
 nav ul li a:hover{
-    background: linear-gradient(90deg, #E11180, #46C7F4);
+    background: linear-gradient(90deg, var(--main-pink), var(--main-blue));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -97,7 +104,7 @@ main{
     margin: 70px auto 100px auto !important;
 }
 main h1{
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
     font-family: "Cormorant Upright", serif;
     font-size: 3rem;
     text-align: center;
@@ -105,7 +112,7 @@ main h1{
 }
 
 main p{
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
     margin: 15px 0;
     line-height: 1.5;
 }
@@ -121,7 +128,7 @@ main p{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
     font-weight: 600;
     width: 100%;
 }
@@ -135,7 +142,7 @@ main p{
 }
 
 .myworkscard a:hover p{
-    color: #E11180;
+    color: var(--main-pink);
 }
 
 .myworkscard img {
@@ -152,8 +159,8 @@ main p{
     background-origin: border-box;
     background-clip: padding-box, border-box;
     background-image: 
-      linear-gradient(#222223, #222223), 
-      linear-gradient(90deg, #E11180, #46C7F4);
+      linear-gradient(var(--main-dark), var(--main-dark)), 
+      linear-gradient(90deg, var(--main-pink), var(--main-blue));
     transition: background-position 1s linear;
     background-size: 100% 100%, 200% 200%;
     background-position: center center, 0% 0%;
@@ -173,7 +180,7 @@ footer{
     display: flex;
     align-items: center;
     margin-right: 40px;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
 }
 
 .social img{
@@ -279,7 +286,7 @@ footer{
         display: none;
         flex-direction: column;
         gap: 0.5rem;
-        background-color: #222223;
+        background-color: var(--main-dark);
         position: absolute;
         top: 100%;
         left: 0;

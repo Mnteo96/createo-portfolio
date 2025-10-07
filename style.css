@@ -6,8 +6,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    --main-pink: #E11180;
+    --main-blue: #46C7F4;
+    --main-dark: #222223;
+    --main-light: #f1f1f1;
+}
+
 body{
-    background-color: #222223;
+    background-color: var(--main-dark);
     padding-top: 20px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -68,11 +75,11 @@ nav ul li{
 
 a{
     text-decoration: none;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
 }
 
 nav ul li a:hover{
-    background: linear-gradient(90deg, #E11180, #46C7F4);
+    background: linear-gradient(90deg, var(--main-pink), var(--main-blue));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -98,7 +105,7 @@ nav .createo-logo{
 /*Header--------------------------*/
 header{
     margin-top: 50px !important;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -113,7 +120,7 @@ h1{
 }
 
 .name{
-    background: linear-gradient(90deg, #E11180, #46C7F4);
+    background: linear-gradient(90deg, var(--main-pink), var(--main-blue));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -146,7 +153,7 @@ h1{
 }
 
 .first-section h2{
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
     font-family: "Cormorant Upright", serif;
     font-size: 2rem;
     text-align: center;
@@ -158,7 +165,7 @@ h1{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
     font-weight: 600;
 }
 
@@ -171,7 +178,7 @@ h1{
 }
 
 .myworkscard a:hover{
-    color: #E11180;
+    color: var(--main-pink);
 }
 
 .myworkscard img {
@@ -188,8 +195,8 @@ h1{
     background-origin: border-box;
     background-clip: padding-box, border-box;
     background-image: 
-      linear-gradient(#222223, #222223), 
-      linear-gradient(90deg, #E11180, #46C7F4);
+      linear-gradient(var(--main-dark), var(--main-dark)), 
+      linear-gradient(90deg, var(--main-pink), var(--main-blue));
     transition: background-position 1s linear;
     background-size: 100% 100%, 200% 200%;
     background-position: center center, 0% 0%;
@@ -203,7 +210,7 @@ h1{
 
   /*Section two----------------*/
   .white-bg{
-    background-color: rgb(231, 234, 235);
+    background-color: var(--main-light);
     padding: 100px 0;
   }
 
@@ -264,7 +271,7 @@ h1{
     margin: 100px auto;
     min-height: 400px;
     max-height: 600px;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
 }
 
 .studiescard{
@@ -292,11 +299,11 @@ h1{
 }
 
 .blue-text{
-    color: #46C7F4;
+    color: var(--main-blue);
 }
 
 .pink-text{
-    color: #E11180;
+    color: var(--main-pink);
 }
 
 .studiescard img{
@@ -321,7 +328,7 @@ h1{
     font-family: "Cormorant Upright", serif;
     font-size: 2rem;
     margin-bottom: 30px;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
     text-align: center;
 }
 
@@ -338,14 +345,14 @@ h1{
 
 .programscontainer ul{
     margin-top: 60px;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
     line-height: 1.7rem;
 }
 
 
 /*Section fifth*/
 .white-bg-sm{
-    background-color: rgb(231, 234, 235);
+    background-color: var(--main-light);
     padding: 50px 0;
 }
 
@@ -416,7 +423,7 @@ footer{
     display: flex;
     align-items: center;
     margin-right: 40px;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
 }
 
 .social img{
@@ -621,7 +628,7 @@ footer{
         display: none;
         flex-direction: column;
         gap: 0.5rem;
-        background-color: #222223;
+        background-color: var(--main-dark);
         position: absolute;
         top: 100%;
         left: 0;
@@ -660,7 +667,7 @@ footer{
 
     .programscontainer ul{
         margin-top: 60px;
-        color: rgb(231, 234, 235);
+        color: var(--main-light);
         line-height: 1.7rem;
     }
 

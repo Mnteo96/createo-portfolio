@@ -1,3 +1,10 @@
+:root{
+    --main-pink: #E11180;
+    --main-blue: #46C7F4;
+    --main-dark: #222223;
+    --main-light: #f1f1f1;
+}
+
 main #me-wh-bg{
     width: 40%;
     float: left;
@@ -6,18 +13,18 @@ main #me-wh-bg{
 }
 
 main h2{
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
     font-family: "Cormorant Upright", serif;
 }
 
 .highlighted-blue{
     font-weight: bold;
-    color: #46C7F4;
+    color: var(--main-blue);
 }
 
 .highlighted-pink{
     font-weight: bold;
-    color: #E11180;
+    color: var(--main-pink);
 }
 
 .divider{
@@ -42,7 +49,7 @@ main h2{
 }
 
 ul{
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
     margin-top: 20px;
     line-height: 1.2;
 }

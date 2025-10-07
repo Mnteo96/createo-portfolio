@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    --main-pink: #E11180;
+    --main-blue: #46C7F4;
+    --main-dark: #222223;
+    --main-light: #f1f1f1;
+}
+
 body{
-    background-color: #222223;
+    background-color: var(--main-dark);
     padding-top: 20px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -67,11 +74,11 @@ nav ul li{
 
 a{
     text-decoration: none;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
 }
 
 nav ul li a:hover{
-    background: linear-gradient(90deg, #E11180, #46C7F4);
+    background: linear-gradient(90deg, var(--main-pink), var(--main-blue));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -95,7 +102,7 @@ nav .createo-logo{
 /*Main --------------------*/
 main{
     margin: 70px auto 100px auto !important;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
 }
 
 main h1{
@@ -115,9 +122,9 @@ main p{
 }
 
 main .portfolioLink{
-    color: #E11180;
+    color: var(--main-pink);
     width: max-content;
-    border: 1px solid #E11180;
+    border: 1px solid var(--main-pink);
     padding: 10px;
     border-radius: 5px;
     display: block;
@@ -126,8 +133,8 @@ main .portfolioLink{
 }
 
 main .portfolioLink:hover{
-    color:#46C7F4;
-    border: 1px solid #46C7F4;
+    color: var(--main-blue);
+    border: 1px solid var(--main-blue);
 }
 
 section{
@@ -154,12 +161,12 @@ section{
 }
 
 .endLink{
-    color:#E11180;
+    color: var(--main-pink);
     cursor: pointer;
 }
 
 .endLink:hover{
-    color:#46C7F4;
+    color: var(--main-blue);
     cursor: pointer;
 }
 
@@ -178,7 +185,7 @@ footer{
     display: flex;
     align-items: center;
     margin-right: 40px;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
 }
 
 .social img{
@@ -298,7 +305,7 @@ footer{
         display: none;
         flex-direction: column;
         gap: 0.5rem;
-        background-color: #222223;
+        background-color: var(--main-dark);
         position: absolute;
         top: 100%;
         left: 0;

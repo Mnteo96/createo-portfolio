@@ -6,8 +6,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    --main-pink: #E11180;
+    --main-blue: #46C7F4;
+    --main-dark: #222223;
+    --main-light: #f1f1f1;
+}
+
 body{
-    background-color: #222223;
+    background-color: var(--main-dark);
     padding-top: 20px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -67,7 +74,7 @@ a{
 }
 
 nav ul li a:hover{
-    background: linear-gradient(90deg, #E11180, #46C7F4);
+    background: linear-gradient(90deg, var(--main-pink), var(--main-blue));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -101,7 +108,7 @@ main h1{
 
 .container{
     margin-top: 80px;
-    color: rgb(231, 234, 235)
+    color: var(--main-light);
 }
 
 .project{
@@ -113,7 +120,7 @@ main h1{
 
 .project h1{
     font-family: "Cormorant Upright", serif;
-    color: #E11180;
+    color: var(--main-pink);
     margin-bottom: 10px;
 }
 
@@ -138,8 +145,8 @@ main h1{
     background-origin: border-box;
     background-clip: padding-box, border-box;
     background-image: 
-      linear-gradient(#222223, #222223), 
-      linear-gradient(90deg, #E11180, #46C7F4);
+      linear-gradient(var(--main-dark), var(--main-dark)), 
+      linear-gradient(90deg, var(--main-pink), var(--main-blue));
     transition: background-position 1s linear;
     background-size: 100% 100%, 200% 200%;
     background-position: center center, 0% 0%;
@@ -150,7 +157,7 @@ main h1{
 }
 
 .blue{
-    color: #46C7F4;
+    color: var(--main-blue);
 }
 
 .divider{
@@ -172,7 +179,7 @@ footer{
     display: flex;
     align-items: center;
     margin-right: 40px;
-    color: rgb(231, 234, 235);
+    color: var(--main-light);
 }
 
 .social img{
@@ -299,7 +306,7 @@ footer{
         display: none;
         flex-direction: column;
         gap: 0.5rem;
-        background-color: #222223;
+        background-color: var(--main-dark);
         position: absolute;
         top: 100%;
         left: 0;
